@@ -1,0 +1,25 @@
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo, #logo img{
+    height: 50px;
+    width: auto;
+
+}
+
+#hero-section-image{
+    position: relative;
+}
+
+#hero-section-image img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
