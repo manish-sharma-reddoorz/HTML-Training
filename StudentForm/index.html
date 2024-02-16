@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Student Details Form</h1>
+    </header>
+    <main>
+        <div id="form-container">
+            
+            <fieldset id="main-fieldset">
+    
+                <form  id="student-details-form">                    
+                    
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                        
+                        <div id="personal-details-container">
+                            
+                            <div class="form-item">
+                                <label for="firstName">First Name</label>
+                                <input type="text" name="firstName" id="firstName" required>
+                            </div>
+                            
+                            
+                            <div class="form-item">
+                                <label for="middleName">Middle Name</label>
+                                <input type="text" name="middleName" id="middleName">
+                            </div>
+                            
+                            <div class="form-item">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" name="lastName" id="lastName" required>
+                            </div>
+                            
+                            
+                            <div class="form-item">
+                                <label for="dob">D.O.B.</label>
+                                <input type="date" name="dob" id="dob" required>
+                            </div>
+                            
+                        </div>
+                        
+                    </fieldset>
+            
+                
+                    <fieldset>
+                        <legend>Contact Details</legend>
+                        
+                        
+                        <div id="contact-details-container">
+                            
+                            
+                            <div class="form-item">
+                                <label for="phone">Phone</label>
+                                <input type="text" name="phone" id="phone">
+                            </div>        
+                            
+                            <div class="form-item">
+                                <label for="address">Address</label>
+                                <textarea name="address" id="address" required> </textarea>  
+                            </div>
+                            
+                        </div>
+                        
+                    </fieldset>
+                
+                
+                
+                    <fieldset>
+                        <legend>Local Gardians</legend>
+                        
+                        <div id="local-gardians-container">
+                            
+                            <div class="form-item">
+                                <label for="localGardianName">Local Gardian Name</label>
+                                <input type="text" name="localGardianName" id="localGardianName">
+                            </div>        
+                            
+                            <div class="form-item">
+                                <label for="localGardianAddress">Local Gardian Address</label>
+                                <textarea name="localGardianAddress" id="localGardianAddress" required> </textarea>  
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+                
+                
+                
+                
+                
+                    <fieldset>
+                        <legend>Parents Detail</legend>
+                        
+                        <div id="parents-details-container">
+                            
+                            <div class="form-item">
+                                <label for="fathername">Father Name</label>
+                                <input type="text" name="fathername" id="fathername">
+                            </div>        
+                            
+                            <div class="form-item">
+                                <label for="mothername">Mother Name</label>
+                                <input type="text" name="mothername" id="mothername">
+                            </div>
+                        </div>
+                        
+                    </fieldset>
+                
+            
+                    <fieldset>
+                        <legend>Hostel detail</legend>
+                        
+                        <div id="hostel-details-container">
+                            
+                            
+                            <div class="form-item">
+                                <label for="roomNumber">Room Number</label>
+                                <input type="number" name="roomNumber" id = "roomNumber" >                                                                                  
+                            </div>        
+                            
+                            <div class="form-item">
+                                <label for="block">Block</label>
+                                <input type="text" name="block" id="block">
+                            </div>
+                            
+                        </div>
+                    </fieldset>
+
+
+
+                    <div id="submit-button-container">
+                        <button type="submit"> Submit</button>
+                    </div>
+                </form>
+
+            </fieldset>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>

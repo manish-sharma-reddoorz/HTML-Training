@@ -1,0 +1,48 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#form-container fieldset form{ 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#personal-details-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+}   
+
+
+
+#contact-details-container,
+#local-gardians-container,
+#parents-details-container,
+#hostel-details-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px;
+}
+
+
+#submit-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#submit-button-container button {
+    height: 40px;
+    width: 200px;
+    border-radius: 18px;
+    font-weight: 500;
+    font-size: medium;
+
+}
