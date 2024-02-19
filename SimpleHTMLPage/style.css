@@ -1,3 +1,7 @@
+header {
+    height: 80vh;
+}
+
 nav {
     height: 70px;
     display: flex;
@@ -19,7 +23,132 @@ nav {
 #hero-section-image img {
     position: absolute;
     width: 100%;
+    height: 80vh;
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+main {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+#popular-cities {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cities {
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+}
+
+.city-image, .city-image img {
+    width: 100px;
+    height: 100px;
+}
+
+.city-image img {
+    border-radius: 50%;
+}
+
+.city-name {
+    text-align: center;
+    padding: 2px;
+}
+
+
+.heading {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.advertisment-banner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.advertisment-banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 25px;
+    grid-template-areas: 
+    "O1 O1 O2  ."
+    "O1 O1 O2  ."
+    "O1 O1  .  .";
+
+}
+
+
+
+#O1 {
+    grid-area: O1;  
+}
+ 
+#O1 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+#O2{
+    grid-area: O2;
+}
+
+#O2 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+
+#blog-list {
+    display: flex;
+    gap: 20px;
+}
+
+.blog-image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.blog-description {
+    font-weight: 800;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+#list-property {
+    display: flex;
+    width: 100%;
+}
+
+#left, #right {
+    width: 100%;
+}
+
+#left {
+    display: flex;
+    justify-content: center;
+}
+
+#middle-container {
+    width: 70%;
 }
